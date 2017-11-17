@@ -1,1 +1,0 @@
-﻿image = QPixmap("Flags\{}.png".format(flagName).replace(" ", "_").replace("CÃ´te", "Côte"))
