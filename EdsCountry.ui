@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>646</width>
+    <height>518</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Edward's Country Application</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="CountryLabel">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>12</y>
+      <width>191</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Choose a Country From the List</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CountryNameLabel">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>371</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Country Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CountryFlagLabel">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>70</y>
+      <width>240</width>
+      <height>170</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>203</x>
+      <y>260</y>
+      <width>81</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Population:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>203</x>
+      <y>288</y>
+      <width>94</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Total Area In</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>203</x>
+      <y>403</y>
+      <width>229</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Percentage of World Population:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="KMilecomboBox">
+    <property name="geometry">
+     <rect>
+      <x>303</x>
+      <y>288</y>
+      <width>66</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Sq. Mi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sq. KM</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="labelTotalArea">
+    <property name="geometry">
+     <rect>
+      <x>375</x>
+      <y>288</y>
+      <width>131</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TotalArea</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelPopDens">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>360</y>
+      <width>121</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>PopDens</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelPerPop">
+    <property name="geometry">
+     <rect>
+      <x>438</x>
+      <y>403</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>PerPop</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonUPDATE">
+    <property name="geometry">
+     <rect>
+      <x>511</x>
+      <y>348</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>204</x>
+      <y>319</y>
+      <width>130</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Population density</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidgetCountry">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>191</width>
+      <height>391</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonMile">
+    <property name="geometry">
+     <rect>
+      <x>204</x>
+      <y>344</y>
+      <width>133</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Per Square Mile</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonKM">
+    <property name="geometry">
+     <rect>
+      <x>204</x>
+      <y>373</y>
+      <width>126</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Per Square KM</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditPop">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>260</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>CountryLabel</zorder>
+   <zorder>CountryNameLabel</zorder>
+   <zorder>CountryFlagLabel</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_4</zorder>
+   <zorder>KMilecomboBox</zorder>
+   <zorder>labelTotalArea</zorder>
+   <zorder>labelPopDens</zorder>
+   <zorder>labelPerPop</zorder>
+   <zorder>label_3</zorder>
+   <zorder>pushButtonUPDATE</zorder>
+   <zorder>listWidgetCountry</zorder>
+   <zorder>radioButtonMile</zorder>
+   <zorder>radioButtonKM</zorder>
+   <zorder>lineEditPop</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>646</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <action name="actionLoad_Countries">
+   <property name="text">
+    <string>Load Countries</string>
+   </property>
+  </action>
+  <action name="actionSave_to_Files">
+   <property name="text">
+    <string>Save to Files</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
