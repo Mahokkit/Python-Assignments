@@ -1,0 +1,1 @@
+C:\Users\MaEdw\AppData\Local\Programs\Python\Python35-32\Scripts\pyuic5 -x subnetcalculator.ui -o subnetcalculator_lib.py

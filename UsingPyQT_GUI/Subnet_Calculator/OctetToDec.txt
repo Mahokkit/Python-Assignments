@@ -1,0 +1,31 @@
+Decimal and Binary Conversion of IP Addresses
+
+All network professionals need to have a firm grasp of the principles behind IP addressing. This includes understanding how an IP address is associated with a specific network. This is done by using a network address and CIDR to calculate the Network Address, Network Range and Broadcast Address. But the first place we need to start is with a simple understanding of an IP address and it?s conversion to binary and decimal.
+
+An IP address is broken into dotted octet notation. Each octet is expressed as a decimal value from Zero to 255. Since computers start counting from zero this gives us 256 possible values for each octet. Each octet value represents its binary equivalent.
+
+Calculating the decimal value of an IPv4 address is easy. If we were to number the octets from left to right and break them into variables called $octet1, $octet2, $octet3 and $octet4, we can use the following formulas to convert each octet into its decimal value and then add each decimal value to achieve the decimal equivalent for the IP address:
+
+$octet1 x (256^3) = $decimal1
+
+$octet2 x (256^2) = $decimal2
+
+$octet3 x (256) = $decimal3
+
+$octet4 = $decimal4
+
+$decimal1 + $decimal2 + $decimal3 + $decimal4 = $decimal_equivalent
+
+For example, converting IP Address 192.168.1.16 to its decimal equivalent would look like this:
+
+192 x (256^3) = 3221225472
+
+168 x (256^2) = 11010048
+
+1 x 256 = 256
+
+16 = 16
+
+3221225472 + 11010048 + 16 = 3232235792
+
+http://www.freesoft.org/CIE/Course/Subnet/202.htm
