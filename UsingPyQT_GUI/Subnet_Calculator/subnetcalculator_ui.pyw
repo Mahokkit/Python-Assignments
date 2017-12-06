@@ -141,7 +141,7 @@ class MyForm(QMainWindow, subnetcalculator_lib.Ui_mainWindow):
         self.labeHexOctets.clear()
 
     """
-    this is where the magic happens, all the fancy caculation will error checking.
+    this is where the magic happens, all the fancy calculation will error checking.
     because user sometime like to try to break my stuff >=(
     """
     def calculate(self):
